@@ -2,9 +2,11 @@
     --background-image: url("../images/cover-image-light.png");
     --accent-color: #FF8DCB;
     --accent-color-opacity: #32312D66;
-    --text-color: #353430;
-    --bg-color: #FFF1F7;
     --title-color: #FFC2E6;
+    --text-color-1: #353430;
+    --text-color-2: var(--text-color-1);
+    --text-color-3: var(--text-color-1);
+    --bg-color: #FFF1F7;
     --is-light: hidden;
 }
 
@@ -22,4 +24,5 @@
 
 .theme-light .page {
   background-image: url("../images/cover-image-light.png");
+  --is-light: hidden;
 }
