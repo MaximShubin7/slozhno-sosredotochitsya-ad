@@ -133,6 +133,7 @@
 .subtitle_union {
   display: grid;
   gap: 20px;
+  inline-size: 99%;
 }
 
 .main__section-list {
